@@ -1,5 +1,5 @@
  #  Curated [Node]
- > Not a framework. Not a module. Just a bunch of Node.js packages you most likely familiar with and probably already use, bundled together in a modular fashion!
+ > Not a framework. Not a module. Just a bunch of Node.js packages you most likely familiar with and probably already use, bundled together in a modular fashion.
 
 - [Introduction](#introduction)
   - [What is this?](#what-is-this)
@@ -18,7 +18,7 @@
 An arsenal of classes composed of npm packages and code snippets, grouped by use-cases and offered as neatly structured classes of reusable functionalities and resources, aiming to reduce the amount of code you need to type to get stuff done, without a 'framework-ish' learning curve. I initially wrote these classes to practise object-oriented TypeScript, but I use it in production apps today.
 
 ### Who asked for this and why?
-I did. With this package alone, One can quickly deploy a HTTP/Socket.IO server with persistence and task management with much less boilerplate code, but that's not the catch...
+I did. With this package alone, one can quickly deploy a HTTP/Socket.IO server with persistence and task management with much less boilerplate code, but that's not the catch...
 
 All major versions will maintain structure and function signatures all through their lifespan. I've structured it this way to escape having to refactor 20 codebases with similar code.
 
