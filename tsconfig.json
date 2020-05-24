@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "outDir": "classes",
+    "strict": true,
+    "alwaysStrict": true,
+    "diagnostics": true,
+    "disableSizeLimit": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "listEmittedFiles": false,
+    "listFiles": false,
+    "pretty": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "removeComments": true,
+    "noEmitOnError": true,
+    "noEmit": true,
+    "noImplicitThis": true
+  },
+  "compileOnSave": true,
+  "include": ["src"]
+}

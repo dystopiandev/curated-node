@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    "templates/showcase/node_modules": true
+  },
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.packageManager": "npm",
+  "eslint.enable": false
+}
