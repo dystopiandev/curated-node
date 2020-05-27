@@ -132,6 +132,10 @@ export class GeolocationProvider extends _BaseProvider<
     )
   }
 
+  public getStatesByCountryId(id: number) {
+    return this._states.filter((s) => s.countryId === id)
+  }
+
   public getStateById(id: number) {
     return this._states.find((s) => s.id === id) ?? null
   }

@@ -19,6 +19,7 @@ type ExpressRouterRequestMethod =
   | "head"
   | "post"
   | "put"
+  | "patch"
   | "delete"
   | "options"
   | "trace"
