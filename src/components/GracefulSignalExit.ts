@@ -1,6 +1,6 @@
 import { LogModule } from "../modules/Log"
 
-export class GracefulSignalShutdown {
+export class GracefulSignalExit {
   private _shuttingDown: boolean = false
 
   constructor(

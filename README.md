@@ -44,16 +44,16 @@ If I've missed something so far, I'll eventually find and slap a type on it.
 
   Components are classes tailored for functionalities that complete other bundle components and more. They have no base classes.
 
-  - ExpressRouterWrapper
-  - GracefulSignalShutdown
-  - SocketIONamespace
+  - ExpressRouterWrapper - A wrapper for organising your Express server routes and concerns.
+  - GracefulSignalShutdown - Helps with signal-based graceful exit.
+  - SocketIONamespace - A wrapper for using Socket.IO namespaces to separate concerns.
 
 - **Kernels**
 
   Kernels are *bootable* bundle classes. They extend the abstract `_BaseKernel` class, to offer `boot()` and `halt()` methods. The halt method will return true if kernel was gracefully halted, and false otherwise.
 
-  - ExpressKernel
-  - SocketIOKernel
+  - ExpressKernel - Creates an Express server.
+  - SocketIOKernel - Creates a Socket.IO server that can be attached to an Express server or bound directly to a port.
 
 - **Modules**
 
@@ -64,9 +64,16 @@ If I've missed something so far, I'll eventually find and slap a type on it.
   - RedisModule
   - SessionModule
 
+- **Providers**
+
+  Providers are helper classes that offer data, whether implicitly generated or obtained from external resources. They also have no base classes.
+
+  - GeolocationProvider - Countries, states and primary currency, so you don't need to store the static data in the database of every app you make, or rely on network-provided data, which can fail and leave your users with bad UX.
+  - CurrencyProvider - Currencies, their symbols and names.
+
 - **Utils**
 
-  Utils are helper classes. They also have no base classes.
+  Utils are helper classes that offer stateless routines. They also have no base classes.
 
   - FunctionUtils
   - ObjectUtils
