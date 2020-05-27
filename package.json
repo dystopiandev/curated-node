@@ -1,6 +1,6 @@
 {
   "name": "curated-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Not a framework. Not a module. Just a bunch of Node.js packages you most likely familiar with and probably already use, bundled together in a modular fashion.",
   "scripts": {
     ":watch": "./node_modules/.bin/rimraf ./classes; ./node_modules/.bin/tsc -w --noEmit false",
