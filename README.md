@@ -1,4 +1,5 @@
  #  Curated [Node]
+ ![npm](https://img.shields.io/npm/v/curated-node?style=plastic) ![NPM](https://img.shields.io/npm/l/curated-node?style=plastic) ![npm](https://img.shields.io/npm/dt/curated-node?style=plastic)
  > Not a framework. Not a module. Just a bunch of Node.js packages you most likely familiar with and probably already use, bundled together in a modular fashion.
 
 - [Introduction](#introduction)
@@ -6,6 +7,7 @@
   - [Who asked for this and why?](#who-asked-for-this-and-why)
   - [How do I use this?](#how-do-i-use-this)
 - [Documentation](#documentation)
+  - [Installation](#installation)
   - [Package structure](#package-structure)
   - [Features](#features)
     - [TypeScript](#typescript)
@@ -27,6 +29,11 @@ Read the class sources after the base documentation in this guide, and if you li
 
 ## Documentation
 I'll try to offer more detailed docs on each class in this package, but until then, read the code and decide what you want to use.
+
+### Installation
+Unless you have a reason to use this repo directly, simply install from npm registry...
+
+    npm install curated-node
 
 ### Package structure
 This is not a module. For fluidity, all kernels, modules and services are offered as classes. There are no states/instances, factories or dependency injections. The classes are relatively coupled, but you decide when to extend or create instances.
