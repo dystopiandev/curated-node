@@ -15,43 +15,43 @@ export class LogModule {
 
   success(...args: any[]) {
     if (this.config?.console) {
-      console.info(this._prefix, chalk.greenBright.bgBlack(...args))
+      console.info(this._prefix, chalk.greenBright(...args))
     }
   }
 
   info(...args: any[]) {
     if (this.config?.console) {
-      console.info(this._prefix, chalk.blueBright.bgBlack(...args))
+      console.info(this._prefix, chalk.blueBright(...args))
     }
   }
 
   warn(...args: any[]) {
     if (this.config?.console) {
-      console.warn(this._prefix, chalk.yellowBright.bgBlack(...args))
+      console.warn(this._prefix, chalk.yellowBright(...args))
     }
   }
 
   error(...args: any[]) {
     if (this.config?.console) {
-      console.error(this._prefix, chalk.redBright.bgBlack(...args))
+      console.error(this._prefix, chalk.redBright(...args))
     }
   }
 
   log(...args: any[]) {
     if (this.config?.console) {
-      console.log(this._prefix, chalk.whiteBright.bgBlack(...args))
+      console.log(this._prefix, chalk.whiteBright(...args))
     }
   }
 
   quiet(...args: any[]) {
     if (this.config?.console) {
-      console.log(this._prefix, chalk.gray.bgBlack(...args))
+      console.log(this._prefix, chalk.gray(...args))
     }
   }
 
   debug(...args: any[]) {
     if (this.config?.console) {
-      console.debug(this._prefix, chalk.black.bgWhite(...args))
+      console.debug(this._prefix, chalk.dim(...args))
     }
   }
 
