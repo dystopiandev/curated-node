@@ -23,6 +23,10 @@ export class RedisModule extends _BaseModule<RedisModule, RedisModuleConfig> {
     this._redisStore = new RedisStore({ client: this._redisClient })
   }
 
+  get redisClient() {
+    return this._redisClient
+  }
+
   get redisStore() {
     return this._redisStore
   }
