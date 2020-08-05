@@ -10,7 +10,7 @@ export abstract class _BaseModule<T, C> {
   ) {
     this._config = _config as C
 
-    if (!this._logger && _config.logger)
+    if (!this._logger && _config?.logger)
       _config.logger.origin =
         _config.logger.origin ?? `#${new Date().getTime()}`
     this._logger = new LogModule(_config.logger)
