@@ -93,4 +93,4 @@ If I've missed something so far, I'll eventually find and slap a type on it.
 - Class members are camel-cased
 - Private class properties have an underscore prefix
 - Class properties are made public with getters/setters with the leading underscores removed
-- Abstract classes have an underscire prefix
+- Abstract classes have an underscore prefix
