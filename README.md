@@ -1,7 +1,7 @@
  #  Curated [Node]
  
  [![npm](https://img.shields.io/npm/v/curated-node?style=plastic)](https://www.npmjs.com/package/curated-node) [![NPM](https://img.shields.io/npm/l/curated-node?style=plastic)](https://www.npmjs.com/package/curated-node) [![npm](https://img.shields.io/npm/dt/curated-node?style=plastic)](https://www.npmjs.com/package/curated-node)
- > Not a framework. Not a module. Just a bunch of Node.js packages you most likely familiar with and probably already use, bundled together in a modular fashion.
+ > Not a framework. Not a module. Just a bunch of Node.js packages you're most likely familiar with and probably already use, bundled together in a modular fashion.
 
 - [Introduction](#introduction)
   - [What is this?](#what-is-this)
